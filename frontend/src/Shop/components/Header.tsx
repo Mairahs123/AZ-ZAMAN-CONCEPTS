@@ -21,7 +21,9 @@ const headerStyle: CSSProperties = {
 export default function Header(props: Props) {
   return (
     <header style={headerStyle}>
-      <div style={{ fontWeight: "bold" }}>Pi Bakery</div>
+      <div style={{ fontWeight: "bold" }}>
+  AZ ZAMAN CONCEPTS
+</div>
 
       <div>
         {props.user === null ? (
